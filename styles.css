@@ -1,0 +1,69 @@
+@font-face {
+  font-family: segoe;
+  src: url("fonts/segoeuil.ttf");
+}
+
+@font-face {
+  font-family: segoe-bold;
+  src: url("fonts/segoeuib.ttf");
+}
+
+
+* {
+  margin: 0;
+  font-family: segoe;
+}
+
+html, body {
+  width: 100%; height: 100%;
+}
+
+section {
+  width: 100%; height: 100%;
+}
+
+.main {
+  background-color: #222;
+}
+
+.centered {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.bold {
+  font-family: segoe-bold;
+}
+
+.logo {
+  position: absolute;
+  top: 20px; left: 20px;
+}
+
+.logo a h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.main .centered > * {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.main .centered h1 {
+  font-size: 50px;
+}
+
+.main .centered h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
