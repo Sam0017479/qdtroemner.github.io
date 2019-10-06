@@ -1,22 +1,22 @@
 @font-face {
-  font-family: segoe;
-  src: url("fonts/segoeuil.ttf");
+	font-family: segoe;
+	src: url("fonts/segoeuil.ttf");
 }
 
 @font-face {
-  font-family: segoe-bold;
-  src: url("fonts/segoeuib.ttf");
+	font-family: segoe-bold;
+	src: url("fonts/segoeuib.ttf");
 }
 
 /* STYLES */
 
 * {
-  margin: 0;
-  font-family: segoe;
+	margin: 0;
+	font-family: segoe;
 }
 
 html, body {
-  width: 100%; height: 100%;
+	width: 100%; height: 100%;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
 }
 
 .main {
-  background-color: #222;
+	background-color: #222;
 }
 
 .about {
